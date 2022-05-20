@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(168, 255, 255);
+}
+
+.container{
+    width:50%;
+    margin: auto;
+    text-align: center;
+    margin:50px auto;
+
+   
+}
+input{
+    background-color: rgba(158, 152, 152, 0.281);
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+  
+}
+button{
+    border-radius: 10px;
+    font-size: 20px;
+}
+.tasks{
+    
+    height: 400px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.267);
+    color: white;
+ margin: auto;
+ border-radius: 20px;
+ padding: 20px;
+overflow: scroll;
+}
+.task{
+    padding: 10px;
+    margin: 10px 0px;
+    background-color:rgba(137, 43, 226, 0.541);
+    border-radius: 10px;
+    width: 100%;
+}
+.innerTask{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.deletebutton{
+    padding: 1px;
+    margin: 0px;
+    font-size: 20px;
+    height: 38px;
+}
